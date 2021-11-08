@@ -344,13 +344,16 @@
          </cit:edition>
          <cit:identifier>
          <mcc:MD_Identifier>
-            <mcc:code><gco:CharacterString>[SG - Mint and add TERN DOI here (resourceType = Dataset)]</gco:CharacterString></mcc:code>
+            <!-- mcc:code><gco:CharacterString> </gco:CharacterString></mcc:code -->
+            <mcc:code>
+            <gcx:Anchor xlink:role="uri" xlink:href="https://doi.org/10.5281/zenodo.5652221" xlink:show="new">10.5281/zenodo.5652221 </gcx:Anchor>
+            </mcc:code>
          </mcc:MD_Identifier>
          </cit:identifier>
          <cit:onlineResource>
             <cit:CI_OnlineResource>
                <cit:linkage>
-                  <gco:CharacterString>[GW - location on bitbucket for published version- https://bitbucket.org/terndatateam/data-submission-tool/src/master/xml_template/TERN_ISO_Profile_v0_01.xml]</gco:CharacterString>
+                  <gco:CharacterString>https://github.com/ternaustralia/TERN-ISO19115/releases/tag/v1.0</gco:CharacterString>
                </cit:linkage>
                <cit:protocol>
                   <gco:CharacterString>WWW:LINK-1.0-http--link</gco:CharacterString>
