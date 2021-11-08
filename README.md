@@ -5,7 +5,7 @@ The metadata submitted through the SHaRED (TERN Data Editorial System) will be t
 
 Cite as:
 
-Mahuika, Jenny, Siddeswara, Guru, & Devaraju, Anusuriya. (2021). Terrestrial Ecosystem Research Network (TERN) Metadata Profile of ISO 19115-3:2016 and ISO 19157-2:2016 (v1.0) [Data set]. Zenodo. https://doi.org/10.5281/zenodo.5652221
+Mahuika, Jenny, Siddeswara, Guru, & Devaraju, Anusuriya. (2021). Terrestrial Ecosystem Research Network (TERN) Metadata Profile of ISO 19115-3:2016 and ISO 19157-2:2016 (v1.0). Dataset. Zenodo. https://doi.org/10.5281/zenodo.5652221
 
 Shield: [![CC BY 4.0][cc-by-shield]][cc-by]
 
