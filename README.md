@@ -3,6 +3,9 @@
 
 The metadata submitted through the SHaRED (TERN Data Editorial System) will be translated into an ISO 19115-3 based XML document following XML Metadata template. For SHaRED v4, see the template xml_template/TERN_ISO_Profile_v0_01.xml
 
+Cite as:
+Mahuika, Jenny, Siddeswara, Guru, & Devaraju, Anusuriya. (2021). Terrestrial Ecosystem Research Network (TERN) Metadata Profile of ISO 19115-3:2016 and ISO 19157-2:2016 (v1.0) [Data set]. Zenodo. [https://doi.org/10.5281/zenodo.5652221]
+
 Shield: [![CC BY 4.0][cc-by-shield]][cc-by]
 
 This work is licensed under a
