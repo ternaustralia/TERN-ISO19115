@@ -934,6 +934,11 @@
             <!-- About8 ~ Documentation ~ https://ternaus.atlassian.net/wiki/spaces/TDSAG/pages/1026556386/Data+identification+Abstract+Purpose+Credit -->
             <!-- About8 ~ Documentation ~ https://docs.google.com/spreadsheets/d/1jQVXfjI_cybkuS07k0tYA3-75acErog2zpmfXU2ztHY/edit#gid=0 -->
          <mri:credit>
+            <!-- This is standard credit statement to acknowledge traditional owners and custodians  -->
+            <gco:CharacterString> We at TERN acknowledge the Traditional Owners and Custodians throughout Australia, New Zealand and all nations. We honour their profound connections to land, water, biodiversity and culture and pay our respects to their Elders past, present and emerging.
+            </gco:CharacterString>
+         </mri:credit>
+         <mri:credit>
             <gco:CharacterString>Placeholder text=The project was funded by xxx and yyy</gco:CharacterString>
          </mri:credit>
             <!-- ID5 ~ Status mri:status ~ Current XML -->
@@ -2244,6 +2249,7 @@
                   <gco:CharacterString>Please cite this dataset as {Author}{Year Published}{Title}. Version {Version number}. Terrestrial Ecosystem Research Network. dataset. Accessed from https://geonetwork.tern.org.au on {Date}.
                      </gco:CharacterString>
                </mco:otherConstraints>
+               
                 <!-- END Static Section - User may add other constraints -->
                 <!-- Status ~ Current XML and UI -->
                 <!-- Description ~ Constraints identified by the User -->
