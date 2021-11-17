@@ -1177,7 +1177,7 @@
                 <!-- Where2 ~ Help Text ~ OR input decimal degrees in coordinate reference system WGS84. Geoscience Australia provide Grid to Geographic converter -->
                 <!-- Where2 ~ Link ~ 'Grid to Geographic converter' URL https://geodesyapps.ga.gov.au/grid-to-geographic -->
                 <!-- Where2 ~ Required ~ yes at least one set of 4 coordinates -->
-                <!-- Where2 ~ Cardinality ~ many ref: https://schemas.isotc211.org/19115/-3/gex/1.0/gex/#element_geographicElement --> 
+                <!-- Where2 ~ Cardinality ~ many ref: https://schemas.isotc211.org/19115/-3/gex/1.0/gex/#element_geographicElement -->
                <gex:geographicElement>
                   <gex:EX_GeographicBoundingBox>
                      <!-- Rule ~ Allow [-180 to 180] to 3 dec pl -->
@@ -1732,11 +1732,11 @@
                <mri:thesaurusName>
                   <cit:CI_Citation>
                      <cit:title>
-                        <gco:CharacterString>TERN Instrument Type</gco:CharacterString>
+                        <gco:CharacterString>TERN Instrument Type Vocabulary</gco:CharacterString>
                      </cit:title>
                      <cit:otherCitationDetails>
                         <gco:CharacterString>
-                           TERN (2020): TERN Instrument Type. Terrestrial Ecosystem Research Network (TERN). http://linked.data.gov.au/def/tern-cv/a3088b5c-622d-4e25-8a75-4c4961b0dfe8
+                           TERN (2020): TERN Instrument Type Vocabulary. Terrestrial Ecosystem Research Network (TERN). http://linked.data.gov.au/def/tern-cv/a3088b5c-622d-4e25-8a75-4c4961b0dfe8
                         </gco:CharacterString>
                      </cit:otherCitationDetails>
                      <cit:onlineResource>
@@ -1787,11 +1787,11 @@
                <mri:thesaurusName>
                   <cit:CI_Citation>
                      <cit:title >
-                        <gco:CharacterString>TERN Parameter Type</gco:CharacterString>
+                        <gco:CharacterString>TERN Parameter Type Vocabulary</gco:CharacterString>
                      </cit:title>
                      <cit:otherCitationDetails>
                         <gco:CharacterString>
-                           TERN (2020). TERN Parameter Type. Terrestrial Ecosystem Research Network (TERN). http://linked.data.gov.au/def/tern-cv/5699eca7-9ef0-47a6-bcfb-9306e0e2b85e
+                           TERN (2020). TERN Parameter Type Vocabulary. Terrestrial Ecosystem Research Network (TERN). http://linked.data.gov.au/def/tern-cv/5699eca7-9ef0-47a6-bcfb-9306e0e2b85e
                         </gco:CharacterString>
                      </cit:otherCitationDetails>
                      <cit:onlineResource>
@@ -2106,7 +2106,7 @@
                      <!-- citation i=follows https://www.awe.gov.au/science-research/abrs/online-resources/citation -->
                      <cit:otherCitationDetails>
                         <gco:CharacterString>
-                           ABRS (2020): Australian Faunal Directory. Australian Biological Resources Study, Canberra. https://biodiversity.org.au/afd/home.
+                           ABRS (2020): Australian Faunal Directory. Australian Biological Resources Study, Canberra. https://biodiversity.org.au/afd/home
                         </gco:CharacterString>
                      </cit:otherCitationDetails>
                      <cit:onlineResource>
@@ -2252,7 +2252,7 @@
                   <gco:CharacterString>Please cite this dataset as {Author}{Year Published}{Title}. Version {Version number}. Terrestrial Ecosystem Research Network. dataset. Accessed from https://geonetwork.tern.org.au on {Date}.
                      </gco:CharacterString>
                </mco:otherConstraints>
-               
+
                 <!-- END Static Section - User may add other constraints -->
                 <!-- Status ~ Current XML and UI -->
                 <!-- Description ~ Constraints identified by the User -->
