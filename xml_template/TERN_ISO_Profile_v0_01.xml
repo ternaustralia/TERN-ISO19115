@@ -1526,7 +1526,7 @@
                      </cit:title>
                      <cit:otherCitationDetails>
                         <gco:CharacterString>
-                           Global Change Master Directory (GCMD). 2021. GCMD Keywords, Version 11.3. Greenbelt, MD: Earth Science Data and Information System, Earth Science Projects Division, Goddard Space Flight Center (GSFC) National Aeronautics and Space Administration (NASA). URL (GCMD Keyword Forum Page): https://earthdata.nasa.gov/gcmd-forum
+                           Global Change Master Directory (2021): GCMD Keywords. Version 11.3. Greenbelt, MD: Earth Science Data and Information System, Earth Science Projects Division, Goddard Space Flight Center (GSFC) National Aeronautics and Space Administration (NASA). URL (GCMD Keyword Forum Page): https://earthdata.nasa.gov/gcmd-forum
                         </gco:CharacterString>
                      </cit:otherCitationDetails>
                      <cit:onlineResource>
@@ -1579,7 +1579,7 @@
                      </cit:title>
                      <cit:otherCitationDetails>
                         <gco:CharacterString>
-                           Australian Bureau of Statistics. 2020. Australian and New Zealand Standard Research Classification (ANZSRC), https://www.abs.gov.au
+                           Australian Bureau of Statistics (2020): Australian and New Zealand Standard Research Classification (ANZSRC). https://www.abs.gov.au
                         </gco:CharacterString>
                      </cit:otherCitationDetails>
                      <cit:onlineResource>
@@ -1624,11 +1624,11 @@
                <mri:thesaurusName>
                   <cit:CI_Citation>
                      <cit:title>
-                        <gco:CharacterString>TERN Platform Instances</gco:CharacterString>
+                        <gco:CharacterString> TERN Platform Vocabulary</gco:CharacterString>
                      </cit:title>
                      <cit:otherCitationDetails>
                         <gco:CharacterString>
-                           TERN Data Services and Analytics (2020). TERN Platform Instances. TERN. https://w3id.org/tern/resources/
+                           TERN (2020): TERN Platform Vocabulary. Terrestrial Ecosystem Research Network (TERN). https://w3id.org/tern/resources/
                         </gco:CharacterString>
                      </cit:otherCitationDetails>
                      <cit:onlineResource>
@@ -1677,11 +1677,11 @@
                <mri:thesaurusName>
                   <cit:CI_Citation>
                      <cit:title>
-                        <gco:CharacterString>TERN Instrument Instances</gco:CharacterString>
+                        <gco:CharacterString>TERN Instrument Vocabulary</gco:CharacterString>
                      </cit:title>
                      <cit:otherCitationDetails>
                         <gco:CharacterString>
-                           TERN Data Services and Analytics (2020). TERN Instrument Instances. TERN. https://w3id.org/tern/resources/
+                           TERN (2020): TERN Instrument Vocabulary. Terrestrial Ecosystem Research Network (TERN). https://w3id.org/tern/resources/
                         </gco:CharacterString>
                      </cit:otherCitationDetails>
                      <cit:onlineResource>
@@ -1736,7 +1736,7 @@
                      </cit:title>
                      <cit:otherCitationDetails>
                         <gco:CharacterString>
-                           TERN Data Services and Analytics (2020). TERN Instrument Type. TERN. http://linked.data.gov.au/def/tern-cv/a3088b5c-622d-4e25-8a75-4c4961b0dfe8
+                           TERN (2020): TERN Instrument Type. Terrestrial Ecosystem Research Network (TERN). http://linked.data.gov.au/def/tern-cv/a3088b5c-622d-4e25-8a75-4c4961b0dfe8
                         </gco:CharacterString>
                      </cit:otherCitationDetails>
                      <cit:onlineResource>
@@ -1791,7 +1791,7 @@
                      </cit:title>
                      <cit:otherCitationDetails>
                         <gco:CharacterString>
-                           TERN Data Services and Analytics (2020). TERN Parameter Type. TERN. http://linked.data.gov.au/def/tern-cv/5699eca7-9ef0-47a6-bcfb-9306e0e2b85e
+                           TERN (2020). TERN Parameter Type. Terrestrial Ecosystem Research Network (TERN). http://linked.data.gov.au/def/tern-cv/5699eca7-9ef0-47a6-bcfb-9306e0e2b85e
                         </gco:CharacterString>
                      </cit:otherCitationDetails>
                      <cit:onlineResource>
@@ -1841,7 +1841,7 @@
                      </cit:title>
                      <cit:otherCitationDetails>
                         <gco:CharacterString>
-                           QUDT.org (2020). Units of Measure. http://www.qudt.org/2.1/catalog/qudt-catalog.html
+                           QUDT.org (2020): Units of Measure. http://www.qudt.org/2.1/catalog/qudt-catalog.html
                         </gco:CharacterString>
                      </cit:otherCitationDetails>
                      <cit:onlineResource>
@@ -1891,7 +1891,7 @@
                      </cit:title>
                      <cit:otherCitationDetails>
                         <gco:CharacterString>
-                           Global Change Master Directory (GCMD). 2021. GCMD Keywords, Version 11.3. Greenbelt, MD: Earth Science Data and Information System, Earth Science Projects Division, Goddard Space Flight Center (GSFC) National Aeronautics and Space Administration (NASA). URL (GCMD Keyword Forum Page): https://earthdata.nasa.gov/gcmd-forum
+                           Global Change Master Directory (2021): GCMD Keywords. Version 11.3. Greenbelt, MD: Earth Science Data and Information System, Earth Science Projects Division, Goddard Space Flight Center (GSFC) National Aeronautics and Space Administration (NASA). URL (GCMD Keyword Forum Page): https://earthdata.nasa.gov/gcmd-forum
                         </gco:CharacterString>
                      </cit:otherCitationDetails>
                      <cit:onlineResource>
@@ -1943,7 +1943,7 @@
                      </cit:title>
                      <cit:otherCitationDetails>
                         <gco:CharacterString>
-                           Global Change Master Directory (GCMD). 2021. GCMD Keywords, Version 11.3. Greenbelt, MD: Earth Science Data and Information System, Earth Science Projects Division, Goddard Space Flight Center (GSFC) National Aeronautics and Space Administration (NASA). URL (GCMD Keyword Forum Page): https://earthdata.nasa.gov/gcmd-forum
+                           Global Change Master Directory (2021): GCMD Keywords, Version 11.3. Greenbelt, MD: Earth Science Data and Information System, Earth Science Projects Division, Goddard Space Flight Center (GSFC) National Aeronautics and Space Administration (NASA). URL (GCMD Keyword Forum Page): https://earthdata.nasa.gov/gcmd-forum
                         </gco:CharacterString>
                      </cit:otherCitationDetails>
                      <cit:onlineResource>
@@ -1993,7 +1993,7 @@
                      </cit:title>
                      <cit:otherCitationDetails>
                         <gco:CharacterString>
-                           Global Change Master Directory (GCMD). 2021. GCMD Keywords, Version 11.3. Greenbelt, MD: Earth Science Data and Information System, Earth Science Projects Division, Goddard Space Flight Center (GSFC) National Aeronautics and Space Administration (NASA). URL (GCMD Keyword Forum Page): https://earthdata.nasa.gov/gcmd-forum
+                           Global Change Master Directory (2021): GCMD Keywords, Version 11.3. Greenbelt, MD: Earth Science Data and Information System, Earth Science Projects Division, Goddard Space Flight Center (GSFC) National Aeronautics and Space Administration (NASA). URL (GCMD Keyword Forum Page): https://earthdata.nasa.gov/gcmd-forum
                         </gco:CharacterString>
                      </cit:otherCitationDetails>
                      <cit:onlineResource>
@@ -2050,7 +2050,7 @@
                      <!-- citation format follows https://www.anbg.gov.au/citation.html -->
                      <cit:otherCitationDetails>
                         <gco:CharacterString>
-                           Australian Plant Name Index, IBIS database, Centre for Australian National Biodiversity Research, Australian Government, Canberra, http://www.cpbr.gov.au/cgi-bin/apni
+                           Australian Plant Name Index. IBIS database. Centre for Australian National Biodiversity Research, Australian Government, Canberra. http://www.cpbr.gov.au/cgi-bin/apni
                         </gco:CharacterString>
                      </cit:otherCitationDetails>
                      <cit:onlineResource>
@@ -2106,7 +2106,7 @@
                      <!-- citation i=follows https://www.awe.gov.au/science-research/abrs/online-resources/citation -->
                      <cit:otherCitationDetails>
                         <gco:CharacterString>
-                           ABRS 2020. Australian Faunal Directory. Australian Biological Resources Study, Canberra, https://biodiversity.org.au/afd/home.
+                           ABRS (2020): Australian Faunal Directory. Australian Biological Resources Study, Canberra. https://biodiversity.org.au/afd/home.
                         </gco:CharacterString>
                      </cit:otherCitationDetails>
                      <cit:onlineResource>
