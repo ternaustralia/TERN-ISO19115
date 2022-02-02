@@ -1652,6 +1652,7 @@
                   </cit:CI_Citation>
                </mri:thesaurusName>
             </mri:MD_Keywords>
+            </mri:descriptiveKeywords>
          <!-- What6 ~ Display Label ~ TERN Instrument (Types and Individuals) -->
          <!-- What6 ~ Help Text ~ Select the Instrument or click Add to create a new entry -->
          <!-- What6 ~ Operation ~ User can select values and create new list values -->
@@ -1760,8 +1761,8 @@
                      </cit:onlineResource>
                   </cit:CI_Citation>
                </mri:thesaurusName>
-            </mri:MD_Keywords>
-
+                </mri:MD_Keywords>
+          </mri:descriptiveKeywords>
             <!-- What9 ~ Display Label ~ QUDT Units of Measure -->
             <!-- What9 ~ Help Text ~ Select the Unit of Measure or click Add to create a new entry -->
             <!-- What9 ~ Operation ~ User can select values and create new list values -->
@@ -2724,12 +2725,14 @@
             <!-- How8 ~ Cardinality ~ one -->
             <mdq:evaluationMethod>
                <mdq:DQ_EvaluationMethod>
-                  <mdq:evaluationMethodDescription>
+                 <!-- ASD@2022 comment out this element as there is no GUI element in SHAREDv4 to capture this information -->
+                  <!-- mdq:evaluationMethodDescription>
                      <gco:CharacterString>The data quality was assessed by ...</gco:CharacterString>
-                  </mdq:evaluationMethodDescription>
+                  </mdq:evaluationMethodDescription -->
                   <!-- How9 ~ Cardinality ~ 0 to many referenceDoc blocks -->
                   <!-- How9 ~ Online documentation Title and URI - example 1 -->
-                  <mdq:referenceDoc><cit:CI_Citation>
+                  <mdq:referenceDoc>
+                    <cit:CI_Citation>
                      <!-- How10 ~ Display Label ~ Title -->
                      <!-- How10 ~ Help Text ~ Provide the document title -->
                      <!-- How10 ~ Placeholder Text ~ as shown below -->
