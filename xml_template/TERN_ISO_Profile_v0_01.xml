@@ -184,6 +184,7 @@
                            <cit:number>
                               <gco:CharacterString>+61 7 3365 9097</gco:CharacterString>
                            </cit:number>
+                           <!-- ASD@2022 Telephone type code is static - the codeListValue 'voice' is fixed -->
                            <cit:numberType>
                               <cit:CI_TelephoneTypeCode codeList="https://schemas.isotc211.org/19115/resources/Codelist/cat/codelists.xml#CI_TelephoneTypeCode" codeListValue="voice"/>
                            </cit:numberType>
@@ -590,6 +591,7 @@
                                        <cit:number>
                                           <gco:CharacterString>+61 7 3365 9097</gco:CharacterString>
                                        </cit:number>
+                                       <!-- ASD@2022 Telephone type code is static - the codeListValue 'voice' is fixed -->
                                        <cit:numberType>
                                           <cit:CI_TelephoneTypeCode codeList="https://schemas.isotc211.org/19115/resources/Codelist/cat/codelists.xml#CI_TelephoneTypeCode" codeListValue="voice"/>
                                        </cit:numberType>
@@ -684,11 +686,13 @@
                               <cit:CI_Contact>
 							  <!-- Who15.  For Who16 codelist value changes to 'fax' -->
 							  <!-- Codelist ~ https://schemas.isotc211.org/schemas/19115/-3/mco/1.0/codelists.xml  CI_TelephoneTypeCode -->
+                       <!-- ASD@2022 Telephone type code is static - the codeListValue 'voice' is fixed -->
                                  <cit:phone>
                                     <cit:CI_Telephone>
                                        <cit:number>
                                           <gco:CharacterString>+61 2 6246 5588</gco:CharacterString>
                                        </cit:number>
+                                       <!-- ASD@2022 Telephone type code is static - the codeListValue 'voice' is fixed -->
                                        <cit:numberType>
                                           <cit:CI_TelephoneTypeCode codeList="https://schemas.isotc211.org/19115/resources/Codelist/cat/codelists.xml#CI_TelephoneTypeCode" codeListValue="voice"/>
                                        </cit:numberType>
@@ -805,6 +809,7 @@
                               <cit:CI_Contact>
 							  <!-- Who15.  For Who16 codelist value changes to 'fax' -->
 							  <!-- Codelist ~ https://schemas.isotc211.org/schemas/19115/-3/mco/1.0/codelists.xml  CI_TelephoneTypeCode -->
+                       <!-- ASD@2022 Telephone type code is static - the codeListValue 'voice' is fixed -->
                                  <cit:phone>
                                     <cit:CI_Telephone>
                                        <cit:number>
@@ -998,6 +1003,7 @@
                                  <cit:number>
                                     <gco:CharacterString>02 6249 9182/9781</gco:CharacterString>
                                  </cit:number>
+                                 <!-- ASD@2022 Telephone type code is static - the codeListValue 'voice' is fixed -->
                                  <cit:numberType>
                                     <cit:CI_TelephoneTypeCode codeList="https://schemas.isotc211.org/19115/resources/Codelist/cat/codelists.xml#CI_TelephoneTypeCode" codeListValue="voice"/>
                                  </cit:numberType>
@@ -1008,6 +1014,7 @@
                                  <cit:number>
                                     <gco:CharacterString>02 6249 9920</gco:CharacterString>
                                  </cit:number>
+                                 <!-- ASD@2022 Telephone type code is static - the codeListValue 'voice' is fixed -->
                                  <cit:numberType>
                                     <cit:CI_TelephoneTypeCode codeList="https://schemas.isotc211.org/19115/resources/Codelist/cat/codelists.xml#CI_TelephoneTypeCode" codeListValue="facsimile"/>
                                  </cit:numberType>
@@ -2409,6 +2416,7 @@
                                        <cit:number>
                                           <gco:CharacterString>+61 7 3365 9097</gco:CharacterString>
                                        </cit:number>
+                                       <!-- ASD@2022 Telephone type code is static - the codeListValue 'voice' is fixed -->
                                        <cit:numberType>
                                           <cit:CI_TelephoneTypeCode codeList="https://schemas.isotc211.org/19115/resources/Codelist/cat/codelists.xml#CI_TelephoneTypeCode"
                                              codeListValue="voice"/>
@@ -2559,6 +2567,7 @@
                                        <cit:number>
                                           <gco:CharacterString>+61 2 3365 9097</gco:CharacterString>
                                        </cit:number>
+                                       <!-- ASD@2022 Telephone type code is static - the codeListValue 'voice' is fixed -->
                                        <cit:numberType>
                                           <cit:CI_TelephoneTypeCode codeList="https://schemas.isotc211.org/19115/resources/Codelist/cat/codelists.xml#CI_TelephoneTypeCode"
                                              codeListValue="voice"/>
