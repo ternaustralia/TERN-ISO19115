@@ -157,7 +157,8 @@
          <mdb:resourceScope>
             <mcc:MD_ScopeCode codeList="https://schemas.isotc211.org/19115/resources/Codelist/cat/codelists.xml#MD_ScopeCode" codeListValue="dataset"/>
          </mdb:resourceScope>
-         <mdb:name gco:nilReason="missing"/>
+         <!--ASD excluded mdb:name as by default the scope code is "dataset" -->
+         <!--mdb:name gco:nilReason="missing"/ -->
       </mdb:MD_MetadataScope>
    </mdb:metadataScope>
    <!-- Static section ~ retain in XML output -->
