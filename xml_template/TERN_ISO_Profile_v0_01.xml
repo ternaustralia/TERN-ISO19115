@@ -1247,7 +1247,69 @@
                         </gex:extent>
                      </gex:EX_TemporalExtent>
                   </gex:temporalElement>
-               </gex:EX_Extent>
+              
+            
+            <gex:verticalElement>
+               <gex:EX_VerticalExtent>
+                  <!-- Where7 ~ Description ~ Minimum elevation of site in metres -->
+                  <!-- Where7 ~ Operation ~ User input -->
+                  <!-- Where7 ~ InputLength ~ 10 -->
+                  <!-- Where7 ~ Size ~ single -->
+                  <!-- Where7 ~ Required ~ conditional -->
+                  <!-- Where7 ~ Rule ~ If vertical component flag is true, fields are mandatory -->
+                  <!-- Where7 ~ Rule ~ Accepts valid positive numbers to 2dp -->
+                  <gex:minimumValue>
+                     <gco:Real>-10.0</gco:Real>
+                  </gex:minimumValue>
+                  <!-- Where8 ~ Description ~ Maximum elevation of site in metres -->
+                  <!-- Where8 ~ Operation ~ User input -->
+                  <!-- Where8 ~ InputLength ~ 10 -->
+                  <!-- Where8 ~ Size ~ single -->
+                  <!-- Where8 ~ Required ~ conditional -->
+                  <!-- Where8 ~ Rule ~ If vertical component flag is true, fields are mandatory -->
+                  <!-- Where8 ~ Rule ~ Maximum value is greater than equal to minimum value -->
+                  <!-- Where8 ~ Rule ~ Accepts valid positive numbers to 2dp -->
+                  <gex:maximumValue>
+                     <gco:Real>40.5</gco:Real>
+                  </gex:maximumValue>
+                  <!-- Where5 ~ Block Status vertical mdb:referenceSystemInfo ~ New XML and field made available in UI -->
+                  <!-- Where5 ~ Description ~ Describes the Vertical Coordinate Reference System of the data -->
+                  <!-- Where5 ~ Operation ~ Provide drop-down list of options using description and code, related values for code, codespace and reference system type code will default based on selected value -->
+                  <!-- Where5 ~ UI ~ New -->
+                  <!-- Where5 ~ Tab ~ Where -->
+                  <!-- Where5 ~ Display Label ~ Vertical Coordinate Reference System* -->
+                  <!-- Where5 ~ Help Text ~ What is the Coordinate Reference System of the elevation data? -->
+                  <!-- Where5 ~ Placeholder Text ~ Please select -->
+                  <!-- Where5 ~ KeepPlaceholderText ~ no -->
+                  <!-- Where5 ~ Required ~ conditional -->
+                  <!-- Where5 ~ Rule ~ If vertical component flag is true, field is mandatory -->
+                  <!-- Where5 ~ Codelist ~ https://ternaus.atlassian.net/wiki/spaces/TDSAG/pages/1240170497/List+of+values+for+Coordinate+Reference+Systems#Vertical-Coordinate-Reference-Systems -->
+                  <!-- Where5 ~ Cardinality ~ one -->
+                  <!-- Where5 ~ Documentation ~ https://ternaus.atlassian.net/wiki/spaces/TDSAG/pages/1028555039/Reference+System+Info -->
+                  <!-- Where5 ~ Documentation ~ https://docs.google.com/spreadsheets/d/1jQVXfjI_cybkuS07k0tYA3-75acErog2zpmfXU2ztHY/edit#gid=0 -->
+                  <gex:verticalCRSId>
+                     <mrs:MD_ReferenceSystem>
+                        <mrs:referenceSystemIdentifier>
+                           <mcc:MD_Identifier>
+                              <mcc:code>
+                                 <gco:CharacterString>EPSG:4979</gco:CharacterString>
+                              </mcc:code>
+                              <mcc:codeSpace>
+                                 <gco:CharacterString>EPSG</gco:CharacterString>
+                              </mcc:codeSpace>
+                              <mcc:description>
+                                 <gco:CharacterString>WGS-84</gco:CharacterString>
+                              </mcc:description>
+                           </mcc:MD_Identifier>
+                        </mrs:referenceSystemIdentifier>
+                        <mrs:referenceSystemType>
+                           <mrs:MD_ReferenceSystemTypeCode codeList="https://schemas.isotc211.org/19115/resources/Codelist/cat/codelists.xml#MD_ReferenceSystemTypeCode" codeListValue="geodeticGeographic3D"></mrs:MD_ReferenceSystemTypeCode>
+                        </mrs:referenceSystemType>
+                     </mrs:MD_ReferenceSystem>
+                  </gex:verticalCRSId>
+               </gex:EX_VerticalExtent>
+            </gex:verticalElement>
+            </gex:EX_Extent>
          </mri:extent>
             <!-- Where7 and Where8 ~ Block Status vertical mri:extent ~ Current XML, change XML and functionality -->
             <!-- Where7 and Where8 ~ Description ~ Indicates the lowest and highest vertical elevation at the site dataset was collected -->
@@ -1262,46 +1324,47 @@
             <!-- Where7 and Where8 ~ WriteEmptyBlock ~ no -->
             <!-- Where7 and Where8 ~ Documentation ~ https://ternaus.atlassian.net/wiki/spaces/TDSAG/pages/1030750285/Data+Identification+Extent+Vertical+Extent+TBC -->
             <!-- Where7 and Where8 ~ Documentation ~ https://docs.google.com/spreadsheets/d/1jQVXfjI_cybkuS07k0tYA3-75acErog2zpmfXU2ztHY/edit#gid=0 -->
+<!--
          <mri:extent>
             <gex:EX_Extent id="Vertical">
                <gex:verticalElement>
                   <gex:EX_VerticalExtent>
-                    <!-- Where7 ~ Description ~ Minimum elevation of site in metres -->
-                    <!-- Where7 ~ Operation ~ User input -->
-                    <!-- Where7 ~ InputLength ~ 10 -->
-                    <!-- Where7 ~ Size ~ single -->
-                    <!-- Where7 ~ Required ~ conditional -->
-                    <!-- Where7 ~ Rule ~ If vertical component flag is true, fields are mandatory -->
-                    <!-- Where7 ~ Rule ~ Accepts valid positive numbers to 2dp -->
+                    <!-\- Where7 ~ Description ~ Minimum elevation of site in metres -\->
+                    <!-\- Where7 ~ Operation ~ User input -\->
+                    <!-\- Where7 ~ InputLength ~ 10 -\->
+                    <!-\- Where7 ~ Size ~ single -\->
+                    <!-\- Where7 ~ Required ~ conditional -\->
+                    <!-\- Where7 ~ Rule ~ If vertical component flag is true, fields are mandatory -\->
+                    <!-\- Where7 ~ Rule ~ Accepts valid positive numbers to 2dp -\->
                      <gex:minimumValue>
                         <gco:Real>-10.0</gco:Real>
                      </gex:minimumValue>
-                        <!-- Where8 ~ Description ~ Maximum elevation of site in metres -->
-                        <!-- Where8 ~ Operation ~ User input -->
-                        <!-- Where8 ~ InputLength ~ 10 -->
-                        <!-- Where8 ~ Size ~ single -->
-                        <!-- Where8 ~ Required ~ conditional -->
-                        <!-- Where8 ~ Rule ~ If vertical component flag is true, fields are mandatory -->
-                        <!-- Where8 ~ Rule ~ Maximum value is greater than equal to minimum value -->
-                        <!-- Where8 ~ Rule ~ Accepts valid positive numbers to 2dp -->
+                        <!-\- Where8 ~ Description ~ Maximum elevation of site in metres -\->
+                        <!-\- Where8 ~ Operation ~ User input -\->
+                        <!-\- Where8 ~ InputLength ~ 10 -\->
+                        <!-\- Where8 ~ Size ~ single -\->
+                        <!-\- Where8 ~ Required ~ conditional -\->
+                        <!-\- Where8 ~ Rule ~ If vertical component flag is true, fields are mandatory -\->
+                        <!-\- Where8 ~ Rule ~ Maximum value is greater than equal to minimum value -\->
+                        <!-\- Where8 ~ Rule ~ Accepts valid positive numbers to 2dp -\->
                      <gex:maximumValue>
                         <gco:Real>40.5</gco:Real>
                      </gex:maximumValue>
-                        <!-- Where5 ~ Block Status vertical mdb:referenceSystemInfo ~ New XML and field made available in UI -->
-                        <!-- Where5 ~ Description ~ Describes the Vertical Coordinate Reference System of the data -->
-                        <!-- Where5 ~ Operation ~ Provide drop-down list of options using description and code, related values for code, codespace and reference system type code will default based on selected value -->
-                        <!-- Where5 ~ UI ~ New -->
-                        <!-- Where5 ~ Tab ~ Where -->
-                        <!-- Where5 ~ Display Label ~ Vertical Coordinate Reference System* -->
-                        <!-- Where5 ~ Help Text ~ What is the Coordinate Reference System of the elevation data? -->
-                        <!-- Where5 ~ Placeholder Text ~ Please select -->
-                        <!-- Where5 ~ KeepPlaceholderText ~ no -->
-                        <!-- Where5 ~ Required ~ conditional -->
-                        <!-- Where5 ~ Rule ~ If vertical component flag is true, field is mandatory -->
-                        <!-- Where5 ~ Codelist ~ https://ternaus.atlassian.net/wiki/spaces/TDSAG/pages/1240170497/List+of+values+for+Coordinate+Reference+Systems#Vertical-Coordinate-Reference-Systems -->
-                        <!-- Where5 ~ Cardinality ~ one -->
-                        <!-- Where5 ~ Documentation ~ https://ternaus.atlassian.net/wiki/spaces/TDSAG/pages/1028555039/Reference+System+Info -->
-                        <!-- Where5 ~ Documentation ~ https://docs.google.com/spreadsheets/d/1jQVXfjI_cybkuS07k0tYA3-75acErog2zpmfXU2ztHY/edit#gid=0 -->
+                        <!-\- Where5 ~ Block Status vertical mdb:referenceSystemInfo ~ New XML and field made available in UI -\->
+                        <!-\- Where5 ~ Description ~ Describes the Vertical Coordinate Reference System of the data -\->
+                        <!-\- Where5 ~ Operation ~ Provide drop-down list of options using description and code, related values for code, codespace and reference system type code will default based on selected value -\->
+                        <!-\- Where5 ~ UI ~ New -\->
+                        <!-\- Where5 ~ Tab ~ Where -\->
+                        <!-\- Where5 ~ Display Label ~ Vertical Coordinate Reference System* -\->
+                        <!-\- Where5 ~ Help Text ~ What is the Coordinate Reference System of the elevation data? -\->
+                        <!-\- Where5 ~ Placeholder Text ~ Please select -\->
+                        <!-\- Where5 ~ KeepPlaceholderText ~ no -\->
+                        <!-\- Where5 ~ Required ~ conditional -\->
+                        <!-\- Where5 ~ Rule ~ If vertical component flag is true, field is mandatory -\->
+                        <!-\- Where5 ~ Codelist ~ https://ternaus.atlassian.net/wiki/spaces/TDSAG/pages/1240170497/List+of+values+for+Coordinate+Reference+Systems#Vertical-Coordinate-Reference-Systems -\->
+                        <!-\- Where5 ~ Cardinality ~ one -\->
+                        <!-\- Where5 ~ Documentation ~ https://ternaus.atlassian.net/wiki/spaces/TDSAG/pages/1028555039/Reference+System+Info -\->
+                        <!-\- Where5 ~ Documentation ~ https://docs.google.com/spreadsheets/d/1jQVXfjI_cybkuS07k0tYA3-75acErog2zpmfXU2ztHY/edit#gid=0 -\->
                      <gex:verticalCRSId>
                        <mrs:MD_ReferenceSystem>
                          <mrs:referenceSystemIdentifier>
@@ -1325,7 +1388,7 @@
                   </gex:EX_VerticalExtent>
                </gex:verticalElement>
             </gex:EX_Extent>
-         </mri:extent>
+         </mri:extent> -->
          <!-- Block Status mri:additionalDocumentation ~ New XML and fields -->
             <!-- WriteEmptyBlock ~ no -->
             <!-- Description ~ Documentation related to the resource -->
