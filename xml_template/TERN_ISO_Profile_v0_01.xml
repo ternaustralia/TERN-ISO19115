@@ -157,7 +157,8 @@
          <mdb:resourceScope>
             <mcc:MD_ScopeCode codeList="https://schemas.isotc211.org/19115/resources/Codelist/cat/codelists.xml#MD_ScopeCode" codeListValue="dataset"/>
          </mdb:resourceScope>
-         <mdb:name gco:nilReason="missing"/>
+         <!--ASD excluded mdb:name as by default the scope code is "dataset" -->
+         <!--mdb:name gco:nilReason="missing"/ -->
       </mdb:MD_MetadataScope>
    </mdb:metadataScope>
    <!-- Static section ~ retain in XML output -->
@@ -509,6 +510,7 @@
                 <!-- Cardinality ~ one -->
                 <!-- Documentation ~ https://ternaus.atlassian.net/wiki/spaces/TDSAG/pages/1028718862/Data+Identification+Citation+Dates+and+Edition -->
                 <!-- Documentation ~ https://docs.google.com/spreadsheets/d/1jQVXfjI_cybkuS07k0tYA3-75acErog2zpmfXU2ztHY/edit#gid=0 -->
+               <!-- ASD the revision date of the dataset is same as the revision date of the metadata record -->
                <cit:date>
                   <cit:CI_Date>
                      <cit:date>
@@ -2406,55 +2408,20 @@
         <!-- Datasource1 ~ Documentation ~ https://docs.google.com/spreadsheets/d/1jQVXfjI_cybkuS07k0tYA3-75acErog2zpmfXU2ztHY/edit#gid=0 -->
          <mrd:distributionFormat>
             <mrd:MD_Format>
-            <!-- Datasource1 ~ Description ~ File format of the data -->
-            <!-- Datasource1 ~ Display Label ~ File format of the data file -->
-            <!-- Datasource1 ~ Help Text ~ CSV, NetCDF, etc. -->
-            <!-- Datasource1 ~ Placeholder Text ~ Examples:CSV, NetCDF, GeoTIFF, TIF, IMG, HDF, ASCII, etc -->
-            <!-- Datasource1 ~ KeepPlaceholderText ~ no -->
-            <!-- Datasource1 ~ Required ~ yes -->
-            <!-- Datasource1 ~ InputLength ~ codelist? -->
-            <!-- Datasource1 ~ Size ~ single -->
-               <!-- Datasource1 ~ Codelist ~ To be confirmed - possibly https://www.loc.gov/preservation/digital/formats/fdd/browse_list.shtml-->
                <mrd:formatSpecificationCitation>
                   <cit:CI_Citation>
-                  <!-- Datasource1 ~ Find or create a codelist for valid values -->
                      <cit:title>
-                        <gco:CharacterString>Placeholder Text=Examples:CSV, NetCDF, GeoTIFF, TIF, IMG, HDF, ASCII, etc</gco:CharacterString>
+                        <gco:CharacterString>Title of the file uploaded supplied by the user</gco:CharacterString>
                      </cit:title>
                   </cit:CI_Citation>
                </mrd:formatSpecificationCitation>
-                <!-- Datasource1 ~ Description ~ Version or date of the file format -->
-                <!-- Datasource1 ~ Display Label ~ File format date/version-->
-                <!-- Datasource1 ~ Help Text ~ CSV, NetCDF, etc. -->
-                <!-- Datasource1 ~ Placeholder Text ~ Version number of the file format -->
-                <!-- Datasource1 ~ KeepPlaceholderText ~ no -->
-                <!-- Datasource1 ~ Required ~ no -->
-                <!-- Datasource1 ~ InputLength ~ 12 -->
-                <!-- Datasource1 ~ Size ~ single -->
-                <!-- Datasource1 ~ Codelist ~ n/a -->
-               <mrd:amendmentNumber><gco:CharacterString>Placeholder Text=Version number of the file format</gco:CharacterString>
-               </mrd:amendmentNumber>
-                <!-- Datasource1 ~ Description ~ Whether the file is compressed -->
-                <!-- Datasource1 ~ Display Label ~ File compression technique -->
-                <!-- Datasource1 ~ Help Text ~ What type of compression is applied to the file? -->
-                <!-- Datasource1 ~ Placeholder Text ~ Examples:Not compressed, ZIP, TAR (Unix) -->
-                <!-- Datasource1 ~ KeepPlaceholderText ~ no -->
-                <!-- Datasource1 ~ Required ~ no -->
-                <!-- Datasource1 ~ InputLength ~ 100 -->
-                <!-- Datasource1 ~ Size ~ single -->
-                <!-- Datasource1 ~ Codelist ~ n/a -->
-               <mrd:fileDecompressionTechnique><gco:CharacterString>Placeholder Text=Examples:Not compressed, ZIP, TAR (Unix)</gco:CharacterString>
-               </mrd:fileDecompressionTechnique>
+               <!-- ASD comment out amendmentNumber and fileDecompressionTechnique as the elements are not supported in SHaRED --> 
+               <!--<mrd:amendmentNumber><gco:CharacterString>Placeholder Text=Version number of the file format</gco:CharacterString>
+               </mrd:amendmentNumber>-->
+               <!--mrd:fileDecompressionTechnique><gco:CharacterString>Placeholder Text=Examples:Not compressed, ZIP, TAR (Unix)</gco:CharacterString>
+               </mrd:fileDecompressionTechnique -->
             </mrd:MD_Format>
          </mrd:distributionFormat>
-            <!-- Datasource1 ~ Status ~ New XML and field -->
-            <!-- Datasource1 ~ Description ~ Indicates which organisation hosts and distributes the data -->
-            <!-- Datasource1 ~ Operation ~ If the user uploads data, then Distributor defaults to 'Terrestrial Ecosystem Research Network' -->
-            <!-- Datasource1 ~ Operation ~ Default details for TERN shown below -->
-            <!-- Datasource1 ~ Required ~ yes -->
-            <!-- Datasource1 ~ Cardinality ~ one -->
-            <!-- Datasource1 ~ Documentation ~ https://ternaus.atlassian.net/wiki/spaces/TDSAG/pages/1042350246/Distribution+Distributor -->
-            <!-- Datasource1 ~ Documentation ~ https://docs.google.com/spreadsheets/d/1jQVXfjI_cybkuS07k0tYA3-75acErog2zpmfXU2ztHY/edit#gid=0 -->
          <mrd:distributor>
             <mrd:MD_Distributor>
                <mrd:distributorContact>
@@ -2540,7 +2507,8 @@
             <mrd:MD_DigitalTransferOptions>
                <!-- Datasource1 ~ Display Label ~ n/a -->
                <!-- Datasource1 ~ Operation ~ Can file size in MB be determined automatically by Data upload function? -->
-               <mrd:transferSize><gco:Real>10</gco:Real></mrd:transferSize>
+               <!-- ASD comment out mrd:transferSize as this element is not supported in SHaRED --> 
+               <!--mrd:transferSize><gco:Real>10</gco:Real></mrd:transferSize -->
                <mrd:onLine>
                   <cit:CI_OnlineResource>
                      <!-- Datasource1 ~ Display Label ~ n/a -->
@@ -2563,7 +2531,7 @@
                      <!-- Datasource1 ~ Required ~ conditional -->
                      <!-- Datasource1 ~ Rule ~ Required if a file is uploaded via Upload Data feature -->
                      <cit:name>
-                        <gco:CharacterString>DictionaryParkhurst_etal_2020.csv [name element]</gco:CharacterString>
+                        <gco:CharacterString>DictionaryParkhurst_etal_2020.csv</gco:CharacterString>
                      </cit:name>
                      <!-- Datasource1 ~ Display Label ~ n/a -->
                      <!-- Datasource1 ~ Description ~ Description of file -->
