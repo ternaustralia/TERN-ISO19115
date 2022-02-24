@@ -2574,6 +2574,19 @@
             <!-- Datasource12 ~ Cardinality ~ one -->
             <!-- Datasource12 ~ Documentation ~ https://ternaus.atlassian.net/wiki/spaces/TDSAG/pages/1042350246/Distribution+Distributor -->
             <!-- Datasource12 ~ Documentation ~ https://docs.google.com/spreadsheets/d/1jQVXfjI_cybkuS07k0tYA3-75acErog2zpmfXU2ztHY/edit#gid=0 -->
+         
+         <mrd:distributionFormat>
+            <mrd:MD_Format>
+               <mrd:formatSpecificationCitation>
+                  <cit:CI_Citation>
+                     <cit:title>
+                        <gco:CharacterString>Title of the data service</gco:CharacterString>
+                     </cit:title>
+                  </cit:CI_Citation>
+               </mrd:formatSpecificationCitation>
+            </mrd:MD_Format>
+         </mrd:distributionFormat>
+         
          <mrd:distributor>
             <mrd:MD_Distributor>
                <mrd:distributorContact>
@@ -2661,7 +2674,8 @@
               <!-- InputLength ~ 10 -->
               <!-- Size ~ single -->
               <!-- Cardinality ~ one per mrd:transferOptions block -->
-               <mrd:transferSize><gco:Real>200</gco:Real></mrd:transferSize>
+               <!-- ASD comment out mrd:transferSize as this element is not supported in SHaRED --> 
+               <!--mrd:transferSize><gco:Real>200</gco:Real></mrd:transferSize -->
                <mrd:onLine>
                   <cit:CI_OnlineResource>
                     <!-- Datasource11 ~ Description ~ URL -->
@@ -2692,7 +2706,7 @@
                               <!-- Datasource5 ~ Size ~ single -->
                               <!-- Datasource5 ~ Cardinality ~ one per mrd:transferOptions block -->
                      <cit:name>
-                        <gco:CharacterString>Name of Feature</gco:CharacterString>
+                        <gco:CharacterString>Name of Service</gco:CharacterString>
                      </cit:name>
                          <!-- Datasource6 ~ Description ~ Layer name -->
                           <!-- Datasource6 ~ Required ~ no -->
