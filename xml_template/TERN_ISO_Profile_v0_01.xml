@@ -2406,7 +2406,7 @@
         <!-- Datasource1 ~ Documentation ~ https://ternaus.atlassian.net/browse/TERNDA-390 -->
         <!-- Datasource1 ~ Documentation ~ https://ternaus.atlassian.net/wiki/spaces/TDSAG/pages/1042251879/Distribution+Distribution+Format -->
         <!-- Datasource1 ~ Documentation ~ https://docs.google.com/spreadsheets/d/1jQVXfjI_cybkuS07k0tYA3-75acErog2zpmfXU2ztHY/edit#gid=0 -->
-         <mrd:distributionFormat>
+         <!--<mrd:distributionFormat>
             <mrd:MD_Format>
                <mrd:formatSpecificationCitation>
                   <cit:CI_Citation>
@@ -2415,13 +2415,13 @@
                      </cit:title>
                   </cit:CI_Citation>
                </mrd:formatSpecificationCitation>
-               <!-- ASD comment out amendmentNumber and fileDecompressionTechnique as the elements are not supported in SHaRED --> 
-               <!--<mrd:amendmentNumber><gco:CharacterString>Placeholder Text=Version number of the file format</gco:CharacterString>
-               </mrd:amendmentNumber>-->
-               <!--mrd:fileDecompressionTechnique><gco:CharacterString>Placeholder Text=Examples:Not compressed, ZIP, TAR (Unix)</gco:CharacterString>
-               </mrd:fileDecompressionTechnique -->
+               <!-\- ASD comment out amendmentNumber and fileDecompressionTechnique as the elements are not supported in SHaRED -\-> 
+               <!-\-<mrd:amendmentNumber><gco:CharacterString>Placeholder Text=Version number of the file format</gco:CharacterString>
+               </mrd:amendmentNumber>-\->
+               <!-\-mrd:fileDecompressionTechnique><gco:CharacterString>Placeholder Text=Examples:Not compressed, ZIP, TAR (Unix)</gco:CharacterString>
+               </mrd:fileDecompressionTechnique -\->
             </mrd:MD_Format>
-         </mrd:distributionFormat>
+         </mrd:distributionFormat>-->
          <mrd:distributor>
             <mrd:MD_Distributor>
                <mrd:distributorContact>
@@ -2575,7 +2575,7 @@
             <!-- Datasource12 ~ Documentation ~ https://ternaus.atlassian.net/wiki/spaces/TDSAG/pages/1042350246/Distribution+Distributor -->
             <!-- Datasource12 ~ Documentation ~ https://docs.google.com/spreadsheets/d/1jQVXfjI_cybkuS07k0tYA3-75acErog2zpmfXU2ztHY/edit#gid=0 -->
          
-         <mrd:distributionFormat>
+      <!--   <mrd:distributionFormat>
             <mrd:MD_Format>
                <mrd:formatSpecificationCitation>
                   <cit:CI_Citation>
@@ -2585,7 +2585,7 @@
                   </cit:CI_Citation>
                </mrd:formatSpecificationCitation>
             </mrd:MD_Format>
-         </mrd:distributionFormat>
+         </mrd:distributionFormat>-->
          
          <mrd:distributor>
             <mrd:MD_Distributor>
@@ -2777,6 +2777,7 @@
          <!-- Data Quality 2 ~ Cardinality ~ one -->
          <mdq:standaloneQualityReport>
             <mdq:DQ_StandaloneQualityReportInformation>
+               <!-- ASD@2022 there is only one report. include 'Online data quality report' title and url here -->
                <mdq:reportReference>
                   <cit:CI_Citation>
                      <cit:title>
@@ -2787,10 +2788,12 @@
                            <cit:linkage>
                               <gco:CharacterString> PlaceHolder Text = URL of the report</gco:CharacterString>
                            </cit:linkage>
-                         </cit:CI_OnlineResource>
+                        </cit:CI_OnlineResource>
                      </cit:onlineResource>
                   </cit:CI_Citation>
                </mdq:reportReference>
+               <!--ASD@2022 use the title of the 'Online data quality report' as abstract value -->
+               <mdq:abstract><gco:CharacterString> PlaceHolder Text =  Name of the report</gco:CharacterString></mdq:abstract>
             </mdq:DQ_StandaloneQualityReportInformation>
          </mdq:standaloneQualityReport>
          <mdq:report>
@@ -2802,15 +2805,16 @@
             <!-- Data Quality 3 ~ InputLength ~ 400 -->
             <!-- Data Quality 3 ~ Size ~ multiline -->
             <!-- Data Quality 3 ~ Cardinality ~ one -->
+            <!-- ASD@2022 included <mdq:DQ_QuantitativeAttributeAccuracy> -->
+            <mdq:DQ_QuantitativeAttributeAccuracy>
             <mdq:result>
-               <mdq:DQ_QuantitativeAttributeAccuracy>
                   <mdq:DQ_DescriptiveResult>
                      <mdq:statement>
                         <gco:CharacterString>Placeholder text = A description of the result of a data quality measure </gco:CharacterString>
                      </mdq:statement>
                    </mdq:DQ_DescriptiveResult>
-               </mdq:DQ_QuantitativeAttributeAccuracy>
             </mdq:result>
+               </mdq:DQ_QuantitativeAttributeAccuracy>
          </mdq:report>
       </mdq:DQ_DataQuality>
    </mdb:dataQualityInfo>
