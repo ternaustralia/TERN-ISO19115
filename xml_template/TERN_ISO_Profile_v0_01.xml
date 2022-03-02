@@ -157,8 +157,6 @@
          <mdb:resourceScope>
             <mcc:MD_ScopeCode codeList="https://schemas.isotc211.org/19115/resources/Codelist/cat/codelists.xml#MD_ScopeCode" codeListValue="dataset"/>
          </mdb:resourceScope>
-         <!--ASD excluded mdb:name as by default the scope code is "dataset" -->
-         <!--mdb:name gco:nilReason="missing"/ -->
       </mdb:MD_MetadataScope>
    </mdb:metadataScope>
    <!-- Static section ~ retain in XML output -->
@@ -216,7 +214,6 @@
                <cit:partyIdentifier>
                   <mcc:MD_Identifier>
                      <mcc:code>
-                        <!-- gco:CharacterString>https://w3id.org/tern/resources/a083902d-d821-41be-b663-1d7cb33eea66</gco:CharacterString -->
                         <gcx:Anchor xlink:role="uri" xlink:href="https://w3id.org/tern/resources/a083902d-d821-41be-b663-1d7cb33eea66" xlink:show="new">https://w3id.org/tern/resources/a083902d-d821-41be-b663-1d7cb33eea66</gcx:Anchor>
                      </mcc:code>
                      <mcc:codeSpace><gco:CharacterString>https://w3id.org/tern/resources</gco:CharacterString>
@@ -344,7 +341,6 @@
          </cit:edition>
          <cit:identifier>
          <mcc:MD_Identifier>
-            <!-- mcc:code><gco:CharacterString> </gco:CharacterString></mcc:code -->
             <mcc:code>
             <gcx:Anchor xlink:role="uri" xlink:href="https://doi.org/10.5281/zenodo.5652221" xlink:show="new">10.5281/zenodo.5652221 </gcx:Anchor>
             </mcc:code>
@@ -625,8 +621,7 @@
                            <cit:partyIdentifier>
                               <mcc:MD_Identifier>
                                  <mcc:code>
-                                    <!-- gco:CharacterString>https://w3id.org/tern/resources/a083902d-d821-41be-b663-1d7cb33eea66</gco:CharacterString -->
-                                    <gcx:Anchor xlink:role="uri" xlink:href="https://w3id.org/tern/resources/a083902d-d821-41be-b663-1d7cb33eea66" xlink:show="new">https://w3id.org/tern/resources/a083902d-d821-41be-b663-1d7cb33eea66</gcx:Anchor>
+                                     <gcx:Anchor xlink:role="uri" xlink:href="https://w3id.org/tern/resources/a083902d-d821-41be-b663-1d7cb33eea66" xlink:show="new">https://w3id.org/tern/resources/a083902d-d821-41be-b663-1d7cb33eea66</gcx:Anchor>
                                  </mcc:code>
                                  <mcc:codeSpace><gco:CharacterString>https://w3id.org/tern/resources</gco:CharacterString>
                                  </mcc:codeSpace>
@@ -725,8 +720,7 @@
                            <cit:partyIdentifier>
                               <mcc:MD_Identifier>
                                  <mcc:code>
-                                    <!-- gco:CharacterString>https://w3id.org/tern/resources/276dd611-5d74-4555-b20f-12f0f0b618a1</gco:CharacterString -->
-                                    <gcx:Anchor xlink:role="uri" xlink:href="https://w3id.org/tern/resources/276dd611-5d74-4555-b20f-12f0f0b618a1" xlink:show="new">https://w3id.org/tern/resources/276dd611-5d74-4555-b20f-12f0f0b618a1</gcx:Anchor>
+                                     <gcx:Anchor xlink:role="uri" xlink:href="https://w3id.org/tern/resources/276dd611-5d74-4555-b20f-12f0f0b618a1" xlink:show="new">https://w3id.org/tern/resources/276dd611-5d74-4555-b20f-12f0f0b618a1</gcx:Anchor>
                                  </mcc:code>
                                  <mcc:codeSpace><gco:CharacterString>https://w3id.org/tern/resources</gco:CharacterString>
                                  </mcc:codeSpace>
@@ -845,7 +839,6 @@
                            <cit:partyIdentifier>
                               <mcc:MD_Identifier>
                                  <mcc:code>
-                                    <!-- gco:CharacterString>https://w3id.org/tern/resources/276dd611-5d74-4555-b20f-12f0f0b618a1</gco:CharacterString -->
                                     <gcx:Anchor xlink:role="uri" xlink:href="https://w3id.org/tern/resources/276dd611-5d74-4555-b20f-12f0f0b618a1" xlink:show="new">https://w3id.org/tern/resources/276dd611-5d74-4555-b20f-12f0f0b618a1</gcx:Anchor>
                                  </mcc:code>
                                  <mcc:codeSpace><gco:CharacterString>https://w3id.org/tern/resources</gco:CharacterString>
@@ -1006,19 +999,6 @@
                                  </cit:numberType>
                               </cit:CI_Telephone>
                            </cit:phone>
-                           <!-- ASD@2022 excluding this part as organization does not have a fax number in SHaRED v4 -->
-                           <!--
-                           <cit:phone>
-                              <cit:CI_Telephone>
-                                 <cit:number>
-                                    <gco:CharacterString>02 6249 9920</gco:CharacterString>
-                                 </cit:number>
-                                 <cit:numberType>
-                                    <cit:CI_TelephoneTypeCode codeList="https://schemas.isotc211.org/19115/resources/Codelist/cat/codelists.xml#CI_TelephoneTypeCode" codeListValue="facsimile"/>
-                                 </cit:numberType>
-                              </cit:CI_Telephone>
-                           </cit:phone>
-                         -->
                            <cit:address>
                               <cit:CI_Address>
                                  <cit:deliveryPoint>
@@ -1026,9 +1006,6 @@
                                  </cit:deliveryPoint>
                                  <cit:deliveryPoint>
                                     <gco:CharacterString>Cnr Jerrabomberra Ave and Hindmarsh Dr</gco:CharacterString>
-                                 </cit:deliveryPoint>
-                                 <cit:deliveryPoint>
-                                    <gco:CharacterString>GPO Box 378</gco:CharacterString>
                                  </cit:deliveryPoint>
                                  <cit:city>
                                     <gco:CharacterString>Canberra</gco:CharacterString>
@@ -1053,8 +1030,7 @@
                      <cit:partyIdentifier>
                         <mcc:MD_Identifier>
                            <mcc:code>
-                              <!--gco:CharacterString>https://w3id.org/tern/resources/797307f8-e10b-4c74-8688-d52f9ac8d669</gco:CharacterString -->
-                              <gcx:Anchor xlink:role="uri" xlink:href="https://w3id.org/tern/resources/797307f8-e10b-4c74-8688-d52f9ac8d669" xlink:show="new">https://w3id.org/tern/resources/797307f8-e10b-4c74-8688-d52f9ac8d669</gcx:Anchor>
+                               <gcx:Anchor xlink:role="uri" xlink:href="https://w3id.org/tern/resources/797307f8-e10b-4c74-8688-d52f9ac8d669" xlink:show="new">https://w3id.org/tern/resources/797307f8-e10b-4c74-8688-d52f9ac8d669</gcx:Anchor>
                            </mcc:code>
                            <mcc:codeSpace><gco:CharacterString>https://w3id.org/tern/resources</gco:CharacterString>
                            </mcc:codeSpace>
@@ -1080,8 +1056,7 @@
                            <cit:partyIdentifier>
                               <mcc:MD_Identifier>
                                  <mcc:code>
-                                    <!--gco:CharacterString>https://w3id.org/tern/resources/71c3eb61-de6b-4184-a7c4-74fed184a10b</gco:CharacterString -->
-                                    <gcx:Anchor xlink:role="uri" xlink:href="https://w3id.org/tern/resources/71c3eb61-de6b-4184-a7c4-74fed184a10b" xlink:show="new">https://w3id.org/tern/resources/71c3eb61-de6b-4184-a7c4-74fed184a10b</gcx:Anchor>
+                                     <gcx:Anchor xlink:role="uri" xlink:href="https://w3id.org/tern/resources/71c3eb61-de6b-4184-a7c4-74fed184a10b" xlink:show="new">https://w3id.org/tern/resources/71c3eb61-de6b-4184-a7c4-74fed184a10b</gcx:Anchor>
                                   </mcc:code>
                                  <mcc:codeSpace><gco:CharacterString>https://w3id.org/tern/resources</gco:CharacterString>
                                  </mcc:codeSpace>
@@ -1249,8 +1224,6 @@
                         </gex:extent>
                      </gex:EX_TemporalExtent>
                   </gex:temporalElement>
-              
-            
             <gex:verticalElement>
                <gex:EX_VerticalExtent>
                   <!-- Where7 ~ Description ~ Minimum elevation of site in metres -->
@@ -1313,84 +1286,7 @@
             </gex:verticalElement>
             </gex:EX_Extent>
          </mri:extent>
-            <!-- Where7 and Where8 ~ Block Status vertical mri:extent ~ Current XML, change XML and functionality -->
-            <!-- Where7 and Where8 ~ Description ~ Indicates the lowest and highest vertical elevation at the site dataset was collected -->
-            <!-- Where7 and Where8 ~ Operation ~ If user elects to input vertical component, the fields are mandatory -->
-            <!-- Where7 and Where8 ~ Change Note ~ Remove from UI - field and label 'Elevation in metres' -->
-            <!-- Where7 and Where8 ~ Change Note ~ Remove from UI - text 'Specify the vertical extent of the data relative to a ground surface defined as 0m' -->
-            <!-- Where7 and Where8 ~ UI ~ Change function/Change texts -->
-            <!-- Where7 and Where8 ~ Tab ~ Where -->
-            <!-- Where7 and Where8 ~ Help Text ~ The lowest and highest vertical elevation at the site where the dataset was collected -->
-            <!-- Where7 and Where8 ~ Required ~ no -->
-            <!-- Where7 and Where8 ~ Cardinality ~ one -->
-            <!-- Where7 and Where8 ~ WriteEmptyBlock ~ no -->
-            <!-- Where7 and Where8 ~ Documentation ~ https://ternaus.atlassian.net/wiki/spaces/TDSAG/pages/1030750285/Data+Identification+Extent+Vertical+Extent+TBC -->
-            <!-- Where7 and Where8 ~ Documentation ~ https://docs.google.com/spreadsheets/d/1jQVXfjI_cybkuS07k0tYA3-75acErog2zpmfXU2ztHY/edit#gid=0 -->
-<!--
-         <mri:extent>
-            <gex:EX_Extent id="Vertical">
-               <gex:verticalElement>
-                  <gex:EX_VerticalExtent>
-                    <!-\- Where7 ~ Description ~ Minimum elevation of site in metres -\->
-                    <!-\- Where7 ~ Operation ~ User input -\->
-                    <!-\- Where7 ~ InputLength ~ 10 -\->
-                    <!-\- Where7 ~ Size ~ single -\->
-                    <!-\- Where7 ~ Required ~ conditional -\->
-                    <!-\- Where7 ~ Rule ~ If vertical component flag is true, fields are mandatory -\->
-                    <!-\- Where7 ~ Rule ~ Accepts valid positive numbers to 2dp -\->
-                     <gex:minimumValue>
-                        <gco:Real>-10.0</gco:Real>
-                     </gex:minimumValue>
-                        <!-\- Where8 ~ Description ~ Maximum elevation of site in metres -\->
-                        <!-\- Where8 ~ Operation ~ User input -\->
-                        <!-\- Where8 ~ InputLength ~ 10 -\->
-                        <!-\- Where8 ~ Size ~ single -\->
-                        <!-\- Where8 ~ Required ~ conditional -\->
-                        <!-\- Where8 ~ Rule ~ If vertical component flag is true, fields are mandatory -\->
-                        <!-\- Where8 ~ Rule ~ Maximum value is greater than equal to minimum value -\->
-                        <!-\- Where8 ~ Rule ~ Accepts valid positive numbers to 2dp -\->
-                     <gex:maximumValue>
-                        <gco:Real>40.5</gco:Real>
-                     </gex:maximumValue>
-                        <!-\- Where5 ~ Block Status vertical mdb:referenceSystemInfo ~ New XML and field made available in UI -\->
-                        <!-\- Where5 ~ Description ~ Describes the Vertical Coordinate Reference System of the data -\->
-                        <!-\- Where5 ~ Operation ~ Provide drop-down list of options using description and code, related values for code, codespace and reference system type code will default based on selected value -\->
-                        <!-\- Where5 ~ UI ~ New -\->
-                        <!-\- Where5 ~ Tab ~ Where -\->
-                        <!-\- Where5 ~ Display Label ~ Vertical Coordinate Reference System* -\->
-                        <!-\- Where5 ~ Help Text ~ What is the Coordinate Reference System of the elevation data? -\->
-                        <!-\- Where5 ~ Placeholder Text ~ Please select -\->
-                        <!-\- Where5 ~ KeepPlaceholderText ~ no -\->
-                        <!-\- Where5 ~ Required ~ conditional -\->
-                        <!-\- Where5 ~ Rule ~ If vertical component flag is true, field is mandatory -\->
-                        <!-\- Where5 ~ Codelist ~ https://ternaus.atlassian.net/wiki/spaces/TDSAG/pages/1240170497/List+of+values+for+Coordinate+Reference+Systems#Vertical-Coordinate-Reference-Systems -\->
-                        <!-\- Where5 ~ Cardinality ~ one -\->
-                        <!-\- Where5 ~ Documentation ~ https://ternaus.atlassian.net/wiki/spaces/TDSAG/pages/1028555039/Reference+System+Info -\->
-                        <!-\- Where5 ~ Documentation ~ https://docs.google.com/spreadsheets/d/1jQVXfjI_cybkuS07k0tYA3-75acErog2zpmfXU2ztHY/edit#gid=0 -\->
-                     <gex:verticalCRSId>
-                       <mrs:MD_ReferenceSystem>
-                         <mrs:referenceSystemIdentifier>
-                            <mcc:MD_Identifier>
-                               <mcc:code>
-                                  <gco:CharacterString>EPSG:4979</gco:CharacterString>
-                               </mcc:code>
-                               <mcc:codeSpace>
-                                  <gco:CharacterString>EPSG</gco:CharacterString>
-                               </mcc:codeSpace>
-                               <mcc:description>
-                                  <gco:CharacterString>WGS-84</gco:CharacterString>
-                               </mcc:description>
-                            </mcc:MD_Identifier>
-                         </mrs:referenceSystemIdentifier>
-                         <mrs:referenceSystemType>
-                            <mrs:MD_ReferenceSystemTypeCode codeList="https://schemas.isotc211.org/19115/resources/Codelist/cat/codelists.xml#MD_ReferenceSystemTypeCode" codeListValue="geodeticGeographic3D"></mrs:MD_ReferenceSystemTypeCode>
-                         </mrs:referenceSystemType>
-                      </mrs:MD_ReferenceSystem>
-                     </gex:verticalCRSId>
-                  </gex:EX_VerticalExtent>
-               </gex:verticalElement>
-            </gex:EX_Extent>
-         </mri:extent> -->
+        
          <!-- Block Status mri:additionalDocumentation ~ New XML and fields -->
             <!-- WriteEmptyBlock ~ no -->
             <!-- Description ~ Documentation related to the resource -->
@@ -2311,32 +2207,6 @@
             <!-- About2 ~ Documentation ~ https://ternaus.atlassian.net/browse/TERNDA-1287 -->
          <mri:resourceConstraints>
          <mco:MD_SecurityConstraints>
-
-            <!-- ASD@2022 Comment out as this information is not required -->
-   <!--            <mco:reference>
-                  <cit:CI_Citation>
-                     <cit:title>
-                        <gco:CharacterString>Security Classification</gco:CharacterString>
-                     </cit:title>
-                     <cit:editionDate>
-                        <gco:DateTime>2018-11-01T00:00:00</gco:DateTime>
-                     </cit:editionDate>
-                     <cit:onlineResource>
-                        <cit:CI_OnlineResource>
-                           <cit:linkage>
-                              <gco:CharacterString>http://standards.iso.org/iso/19115/resources/Codelist/cat/codelists.xml#MD_ClassificationCode</gco:CharacterString>
-                           </cit:linkage>
-                           <cit:protocol>
-                              <gco:CharacterString>WWW:LINK-1.0-http-\-link</gco:CharacterString>
-                           </cit:protocol>
-                           <cit:function>
-                              <cit:CI_OnLineFunctionCode codeList="https://schemas.isotc211.org/19115/resources/Codelist/cat/codelists.xml#CI_OnLineFunctionCode"
-                                 codeListValue="information"/>
-                              </cit:function>
-                        </cit:CI_OnlineResource>
-                     </cit:onlineResource>
-                  </cit:CI_Citation>
-               </mco:reference>-->
                <mco:classification>
                   <mco:MD_ClassificationCode codeList="https://schemas.isotc211.org/19115/resources/Codelist/cat/codelists.xml#MD_ClassificationCode" codeListValue="unclassified"/>
                </mco:classification>
@@ -2406,22 +2276,7 @@
         <!-- Datasource1 ~ Documentation ~ https://ternaus.atlassian.net/browse/TERNDA-390 -->
         <!-- Datasource1 ~ Documentation ~ https://ternaus.atlassian.net/wiki/spaces/TDSAG/pages/1042251879/Distribution+Distribution+Format -->
         <!-- Datasource1 ~ Documentation ~ https://docs.google.com/spreadsheets/d/1jQVXfjI_cybkuS07k0tYA3-75acErog2zpmfXU2ztHY/edit#gid=0 -->
-         <!--<mrd:distributionFormat>
-            <mrd:MD_Format>
-               <mrd:formatSpecificationCitation>
-                  <cit:CI_Citation>
-                     <cit:title>
-                        <gco:CharacterString>Title of the file uploaded supplied by the user</gco:CharacterString>
-                     </cit:title>
-                  </cit:CI_Citation>
-               </mrd:formatSpecificationCitation>
-               <!-\- ASD comment out amendmentNumber and fileDecompressionTechnique as the elements are not supported in SHaRED -\-> 
-               <!-\-<mrd:amendmentNumber><gco:CharacterString>Placeholder Text=Version number of the file format</gco:CharacterString>
-               </mrd:amendmentNumber>-\->
-               <!-\-mrd:fileDecompressionTechnique><gco:CharacterString>Placeholder Text=Examples:Not compressed, ZIP, TAR (Unix)</gco:CharacterString>
-               </mrd:fileDecompressionTechnique -\->
-            </mrd:MD_Format>
-         </mrd:distributionFormat>-->
+      
          <mrd:distributor>
             <mrd:MD_Distributor>
                <mrd:distributorContact>
@@ -2507,8 +2362,6 @@
             <mrd:MD_DigitalTransferOptions>
                <!-- Datasource1 ~ Display Label ~ n/a -->
                <!-- Datasource1 ~ Operation ~ Can file size in MB be determined automatically by Data upload function? -->
-               <!-- ASD comment out mrd:transferSize as this element is not supported in SHaRED --> 
-               <!--mrd:transferSize><gco:Real>10</gco:Real></mrd:transferSize -->
                <mrd:onLine>
                   <cit:CI_OnlineResource>
                      <!-- Datasource1 ~ Display Label ~ n/a -->
@@ -2538,11 +2391,6 @@
                      <!-- Datasource1 ~ Required ~ conditional -->
                      <!-- Datasource1 ~ Rule ~ Required if a file is uploaded via Upload Data feature -->
                      <!-- Datasource1 ~ Rule ~ File name without file extension, replace ["_","-"] with space -->
-                     <!-- ASD@2022 Comment out this element as it is not supported on SHaRED GUI for file upload-->
-                     <!--
-                     <cit:description>
-                        <gco:CharacterString>DictionaryParkhurst etal 2020</gco:CharacterString>
-                     </cit:description> -->
                      <cit:function>
                         <cit:CI_OnLineFunctionCode codeList="https://schemas.isotc211.org/19115/resources/Codelist/cat/codelists.xml#CI_OnLineFunctionCode"
                            codeListValue="download"/>
@@ -2574,20 +2422,7 @@
             <!-- Datasource12 ~ Cardinality ~ one -->
             <!-- Datasource12 ~ Documentation ~ https://ternaus.atlassian.net/wiki/spaces/TDSAG/pages/1042350246/Distribution+Distributor -->
             <!-- Datasource12 ~ Documentation ~ https://docs.google.com/spreadsheets/d/1jQVXfjI_cybkuS07k0tYA3-75acErog2zpmfXU2ztHY/edit#gid=0 -->
-         
-      <!--   <mrd:distributionFormat>
-            <mrd:MD_Format>
-               <mrd:formatSpecificationCitation>
-                  <cit:CI_Citation>
-                     <cit:title>
-                        <gco:CharacterString>Title of the data service</gco:CharacterString>
-                     </cit:title>
-                  </cit:CI_Citation>
-               </mrd:formatSpecificationCitation>
-            </mrd:MD_Format>
-         </mrd:distributionFormat>-->
-         
-         <mrd:distributor>
+ <mrd:distributor>
             <mrd:MD_Distributor>
                <mrd:distributorContact>
                   <cit:CI_Responsibility>
@@ -2641,8 +2476,7 @@
                            <cit:partyIdentifier>
                               <mcc:MD_Identifier>
                                  <mcc:code>
-                                    <!-- gco:CharacterString>https://w3id.org/tern/resources/a083902d-d821-41be-b663-1d7cb33eea66</gco:CharacterString -->
-                                    <gcx:Anchor xlink:role="uri" xlink:href="https://w3id.org/tern/resources/a083902d-d821-41be-b663-1d7cb33eea66" xlink:show="new">https://w3id.org/tern/resources/a083902d-d821-41be-b663-1d7cb33eea66</gcx:Anchor>
+                                      <gcx:Anchor xlink:role="uri" xlink:href="https://w3id.org/tern/resources/a083902d-d821-41be-b663-1d7cb33eea66" xlink:show="new">https://w3id.org/tern/resources/a083902d-d821-41be-b663-1d7cb33eea66</gcx:Anchor>
                                  </mcc:code>
                                  <mcc:codeSpace><gco:CharacterString>https://w3id.org/tern/resources</gco:CharacterString>
                                  </mcc:codeSpace>
@@ -2674,8 +2508,6 @@
               <!-- InputLength ~ 10 -->
               <!-- Size ~ single -->
               <!-- Cardinality ~ one per mrd:transferOptions block -->
-               <!-- ASD comment out mrd:transferSize as this element is not supported in SHaRED --> 
-               <!--mrd:transferSize><gco:Real>200</gco:Real></mrd:transferSize -->
                <mrd:onLine>
                   <cit:CI_OnlineResource>
                     <!-- Datasource11 ~ Description ~ URL -->
@@ -2924,7 +2756,6 @@
             </cit:CI_Citation>
          </mrl:additionalDocumentation>
          <!-- ASD@2022 Included examples of process steps -->
-
          <mrl:processStep>
             <mrl:LI_ProcessStep>
                <mrl:description>
@@ -2942,105 +2773,4 @@
 
       </mrl:LI_Lineage>
    </mdb:resourceLineage>
-   <!-- Description ~ Individual methods used to produce the dataset/collection -->
-   <!-- WriteEmptyBlock ~ no -->
-   <!-- Status ~ Current XML and additional elements -->
-   <!-- Operation ~ User input -->
-   <!-- Operation ~ Block is optional, but if selected then Name and Description are mandatory -->
-   <!-- UI ~ Change function/Change texts -->
-   <!-- Tab ~ How -->
-   <!-- Display Label ~ Process steps optional -->
-   <!-- Cardinality ~ one for each Process steps -->
-   <!-- Documentation ~ https://ternaus.atlassian.net/wiki/spaces/TDSAG/pages/1041825814/Resource+Lineage+Statement -->
-   <!-- Documentation ~ https://ternaus.atlassian.net/wiki/spaces/TDSAG/pages/1044414700/Resource+Lineage+Process+Step -->
-   <!-- Process steps - example 1 -->
-   <!-- ASD@2022 Disable this example as mdb:MD_Metadata can have one mdb:resourceLineage and  mdb:resourceLineage can have 0..* 	mrl:LI_Lineage -->
-  <!-- <mdb:resourceLineage>
-      <mrl:LI_Lineage>
-         <!-\- How7 ~ Description ~ Summary -\->
-         <!-\- How7 ~ Help Text ~ Provide a brief description of the method -\->
-         <!-\- How7 ~ Placeholder Text ~ as shown below -\->
-         <!-\- How7 ~ KeepPlaceholderText ~ yes -\->
-         <!-\- How7 ~ Required ~ Conditional - block is optional but field is required if block is completed -\->
-         <!-\- How7 ~ InputLength ~ 500 -\->
-         <!-\- How7 ~ Size ~ multiline -\->
-         <!-\- How7 ~ Cardinality ~ one per Process steps mdb:resourceLineage block -\->
-         <mrl:statement>
-            <gco:CharacterString>Placeholder text=Provide a brief summary of a single method or procedure</gco:CharacterString>
-         </mrl:statement>
-   <mrl:additionalDocumentation>
-      <cit:CI_Citation>
-         <!-\- How6 ~ Description ~ Name -\->
-         <!-\- How6 ~ Help Text ~ Provide the name of the method or procedure -\->
-         <!-\- How6 ~ Placeholder Text ~ as shown below -\->
-         <!-\- How6 ~ KeepPlaceholderText ~ no -\->
-         <!-\- How6 ~ Required ~ Conditional - block is optional but field is required if block is completed -\->
-         <!-\- How6 ~ InputLength ~ 500 -\->
-         <!-\- How6 ~ Size ~ single -\->
-         <!-\- How6 ~ Cardinality ~ one per Process steps mdb:resourceLineage block -\->
-         <cit:title>
-            <gco:CharacterString>Provide the name of the method or procedure</gco:CharacterString>
-         </cit:title>
-      </cit:CI_Citation>
-   </mrl:additionalDocumentation>
-         <!-\- How7b ~ Description ~ Steps -\->
-         <!-\- How7b ~ Help Text ~ Provide a description of the step in the method of collecting or preparing the data -\->
-         <!-\- How7b ~ Placeholder Text ~ Input step details -\->
-         <!-\- How7b ~ KeepPlaceholderText ~ no -\->
-         <!-\- How7b ~ Required ~ no -\->
-         <!-\- How7b ~ InputLength ~ 500 -\->
-         <!-\- How7b ~ Size ~ single -\->
-         <!-\- How7b ~ Cardinality ~ 0 to many per mdb:resourceLineage block -\->
-         <!-\- How7b ~ Example step 1 -\->
-         <mrl:processStep>
-            <mrl:LI_ProcessStep>
-               <mrl:description>
-                  <gco:CharacterString>Provide the details of step 1</gco:CharacterString>
-               </mrl:description>
-            </mrl:LI_ProcessStep>
-         </mrl:processStep>
-         <!-\- How7b ~ Example 1 step 2 -\->
-         <mrl:processStep>
-            <mrl:LI_ProcessStep>
-               <mrl:description>
-                  <gco:CharacterString>Provide the details of step 2</gco:CharacterString>
-               </mrl:description>
-            </mrl:LI_ProcessStep>
-         </mrl:processStep>
-      </mrl:LI_Lineage>
-   </mdb:resourceLineage>-->
-   <!-- Process steps - example 2 -->
-   <!-- ASD@2022 Disable this example as mdb:MD_Metadata can have one mdb:resourceLineage and  mdb:resourceLineage can have 0..* 	mrl:LI_Lineage -->
-  <!-- <mdb:resourceLineage>
-      <mrl:LI_Lineage>
-         <!-\- How7 ~ example 2 -\->
-         <mrl:statement>
-            <gco:CharacterString>Placeholder text=Provide a brief summary of a single method or procedure</gco:CharacterString>
-         </mrl:statement>
-         <mrl:additionalDocumentation>
-            <cit:CI_Citation>
-               <!-\- How6 - example 2 -\->
-               <cit:title>
-                  <gco:CharacterString>Provide the name of the method or procedure</gco:CharacterString>
-               </cit:title>
-            </cit:CI_Citation>
-         </mrl:additionalDocumentation>
-         <!-\- How7b ~ Example 2 step 1 -\->
-         <mrl:processStep>
-            <mrl:LI_ProcessStep>
-               <mrl:description>
-                  <gco:CharacterString>Provide the details of step 1</gco:CharacterString>
-               </mrl:description>
-            </mrl:LI_ProcessStep>
-         </mrl:processStep>
-         <!-\- How7b ~ Example 2 step 2 -\->
-         <mrl:processStep>
-            <mrl:LI_ProcessStep>
-               <mrl:description>
-                  <gco:CharacterString>Provide the details of step 2</gco:CharacterString>
-               </mrl:description>
-            </mrl:LI_ProcessStep>
-         </mrl:processStep>
-      </mrl:LI_Lineage>
-   </mdb:resourceLineage>-->
 </mdb:MD_Metadata>
