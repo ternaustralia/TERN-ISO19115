@@ -127,7 +127,6 @@
          <cit:identifier>
             <mcc:MD_Identifier>
                <mcc:code>
-                  <!-- gco:CharacterString>https://geonetwork.tern.org.au/geonetwork/srv/eng/catalog.search#/metadata/[Parent UUID goes here]</gco:CharacterString -->
                   <gcx:Anchor xlink:role="uri" xlink:href="https://geonetwork.tern.org.au/geonetwork/srv/eng/catalog.search#/metadata/[Parent UUID goes here]" xlink:show="new">[Parent UUID goes here]</gcx:Anchor>
                </mcc:code>
                <!-- Static section ~ retain in XML output if the user selects a parent record -->
@@ -2331,7 +2330,6 @@
                            <cit:partyIdentifier>
                               <mcc:MD_Identifier>
                                  <mcc:code>
-                                    <!-- gco:CharacterString>https://w3id.org/tern/resources/a083902d-d821-41be-b663-1d7cb33eea66</gco:CharacterString -->
                                     <gcx:Anchor xlink:role="uri" xlink:href="https://w3id.org/tern/resources/a083902d-d821-41be-b663-1d7cb33eea66" xlink:show="new">https://w3id.org/tern/resources/a083902d-d821-41be-b663-1d7cb33eea66</gcx:Anchor>
                                  </mcc:code>
                                  <mcc:codeSpace><gco:CharacterString>https://w3id.org/tern/resources</gco:CharacterString>
