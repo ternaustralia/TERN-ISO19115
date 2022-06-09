@@ -1987,7 +1987,7 @@
                </mri:thesaurusName>
             </mri:MD_Keywords>
          </mri:descriptiveKeywords>
-         <!-- What14 ~ Display Label ~ Australian Faunal Directory -->
+         <!-- What14 ~ Display Label ~ Australian Faunal Directory (AFD) -->
             <!-- What14 ~ Help Text ~ Species taxa  -->
             <!-- What14 ~ Operation ~ User can select values -->
             <!-- What14 ~ Implementation ~ include tags xlink:role always "uri", write xlink:href value -->
