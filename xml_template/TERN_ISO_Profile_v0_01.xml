@@ -991,7 +991,7 @@
                            <cit:phone>
                               <cit:CI_Telephone>
                                  <cit:number>
-                                    <gco:CharacterString>02 6249 9182/9781</gco:CharacterString>
+                                    <gco:CharacterString> </gco:CharacterString>
                                  </cit:number>
                                  <cit:numberType>
                                     <cit:CI_TelephoneTypeCode codeList="https://schemas.isotc211.org/19115/resources/Codelist/cat/codelists.xml#CI_TelephoneTypeCode" codeListValue="voice"/>
